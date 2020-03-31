@@ -4,7 +4,5 @@ end
 
 
 def batch_badge_creator(array)
-  badges = []
   badges.each{|name| badges << "Hello, my name is #{name}."}
-  badges
 end
