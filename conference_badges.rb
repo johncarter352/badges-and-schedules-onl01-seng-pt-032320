@@ -4,5 +4,8 @@ end
 
 
 def batch_badge_creator(array)
-  badges.map{|name| badges << "Hello, my name is #{name}."}
+  badges.each{|name| badges << "Hello, my name is #{name}."}
 end
+badges
+end
+
